@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Faro - Noticias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>El Faro</h1>
+        <img src="logo.png" alt="Logotipo de El Faro" width="150">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#deporte">Deporte</a></li>
+                <li><a href="#negocios">Negocios</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Noticias Generales</h2>
+        <table border="1">
+            <tr>
+                <th>Título</th>
+                <th>Categoría</th>
+                <th>Artículo</th>
+            </tr>
+            <tr>
+                <td>Noticia 1</td>
+                <td>General</td>
+                <td>Descripción de la noticia 1.</td>
+            </tr>
+            <tr>
+                <td>Noticia 2</td>
+                <td>General</td>
+                <td>Descripción de la noticia 2.</td>
+            </tr>
+            <tr>
+                <td>Noticia 3</td>
+                <td>General</td>
+                <td>Descripción de la noticia 3.</td>
+            </tr>
+        </table>
+        <video controls width="400">
+            <source src="video.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Tu navegador no soporta el audio.
+        </audio>
+    </section>
+
+    <section id="deporte">
+        <h2>Deporte</h2>
+        <table border="1">
+            <tr>
+                <th>Título</th>
+                <th>Categoría</th>
+                <th>Artículo</th>
+            </tr>
+            <tr>
+                <td>Noticia 1</td>
+                <td>Deporte</td>
+                <td>Descripción de la noticia deportiva 1.</td>
+            </tr>
+            <tr>
+                <td>Noticia 2</td>
+                <td>Deporte</td>
+                <td>Descripción de la noticia deportiva 2.</td>
+            </tr>
+            <tr>
+                <td>Noticia 3</td>
+                <td>Deporte</td>
+                <td>Descripción de la noticia deportiva 3.</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="negocios">
+        <h2>Negocios</h2>
+        <table border="1">
+            <tr>
+                <th>Título</th>
+                <th>Categoría</th>
+                <th>Artículo</th>
+            </tr>
+            <tr>
+                <td>Noticia 1</td>
+                <td>Negocios</td>
+                <td>Descripción de la noticia de negocios 1.</td>
+            </tr>
+            <tr>
+                <td>Noticia 2</td>
+                <td>Negocios</td>
+                <td>Descripción de la noticia de negocios 2.</td>
+            </tr>
+            <tr>
+                <td>Noticia 3</td>
+                <td>Negocios</td>
+                <td>Descripción de la noticia de negocios 3.</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
